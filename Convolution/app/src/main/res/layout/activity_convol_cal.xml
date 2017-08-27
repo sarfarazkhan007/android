@@ -66,8 +66,8 @@
         android:text="eg: 5 3 6" />
 
     <Button
-        android:text="Calculate Convolution"
-        android:layout_width="match_parent"
+        android:text="Circular"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText2"
         android:layout_marginTop="10dp"
@@ -98,6 +98,33 @@
         android:id="@+id/editText3"
         android:fontFamily="cursive"
         android:textSize="24sp"
+        android:
         android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Developer:-  SARFARAZ KHAN (14CO42)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textView4"
+        android:layout_alignRight="@+id/editText3"
+        android:layout_alignEnd="@+id/editText3"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:fontFamily="cursive"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="Linear "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearbtn"
+        android:fontFamily="cursive"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
