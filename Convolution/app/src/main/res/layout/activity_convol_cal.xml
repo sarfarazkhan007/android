@@ -11,7 +11,7 @@
     tools:context="com.example.khan1.convolution.ConvolCal">
 
     <TextView
-        android:text="Enter val of x(n) :"
+        android:text="Input 1 :- Enter value of x(n)"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
@@ -39,7 +39,7 @@
         android:text="e.g: 1 5 6 2" />
 
     <TextView
-        android:text="Enter val of h(n):"
+        android:text="Input 2 :- Enter value of h(n)"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText"
@@ -75,10 +75,11 @@
         android:fontFamily="cursive"
         android:textSize="30sp"
         android:textStyle="normal|bold"
-        android:textAllCaps="false" />
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_green_dark" />
 
     <TextView
-        android:text="Value of y(n): "
+        android:text="Output :- Value of y(n)"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"
@@ -98,7 +99,7 @@
         android:id="@+id/editText3"
         android:fontFamily="cursive"
         android:textSize="24sp"
-        android:
+        android:enabled="false"
         android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true" />
 
@@ -126,5 +127,6 @@
         android:textSize="30sp"
         android:layout_above="@+id/textView3"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:textColor="?android:attr/colorPrimary" />
 </RelativeLayout>

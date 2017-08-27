@@ -1,5 +1,6 @@
 package com.example.khan1.convolution;
 
+import android.graphics.Color;
 import android.icu.text.StringPrepParseException;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -118,6 +119,7 @@ public class ConvolCal extends AppCompatActivity
                      }
                  }
                  displayOutput();
+                 yedt3.setTextColor(Color.parseColor("#ff669900"));
              }
 
 
@@ -135,7 +137,7 @@ public class ConvolCal extends AppCompatActivity
 
 
                  int padd = i+j-1;
-                 System.out.println("length to be padd :- " + padd);
+                // System.out.println("length to be padd :- " + padd);
 
 
                  // For padding 0's
@@ -159,6 +161,7 @@ public class ConvolCal extends AppCompatActivity
                  }
 
                  displayOutput();
+                 yedt3.setTextColor(Color.parseColor("#3f51b5"));
 
              }
 
